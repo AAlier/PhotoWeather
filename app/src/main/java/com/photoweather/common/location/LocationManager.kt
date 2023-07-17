@@ -82,7 +82,9 @@ class LocationManager constructor(
     /**
      * Callback for Location events.
      */
-    private var mLocationCallback: LocationCallback? = object : LocationCallback() {
+    private var mLocationCallback: LocationCallback? = getCallback()
+
+    private fun getCallback() = object : LocationCallback() {
         override fun onLocationResult(locationResult: LocationResult) {
             super.onLocationResult(locationResult)
             val location = locationResult.lastLocation
@@ -95,6 +97,7 @@ class LocationManager constructor(
      * runtime permission has been granted.
      */
     fun startLocationUpdates(activity: Activity) {
+        mLocationCallback = getCallback()
         mSettingsClient.checkLocationSettings(mLocationSettingsRequest)
             .addOnSuccessListener(activity) {
                 if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
