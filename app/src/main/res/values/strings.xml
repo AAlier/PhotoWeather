@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Photo Weather</string>
+    <string name="action_back">Back</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="camera">Camera</string>
+    <string name="description">PhotoWeather</string>
+    <string name="edit_image">Edit Image</string>
+    <string name="preview_image">Preview Image</string>
+    <string name="error_network_title">Нет подключения к\nинтернет сети</string>
+    <string name="placeholder">PhotoWeather</string>
+    <string name="settings">Settings</string>
+    <string name="retry">Retry</string>
+    <string name="general_error_message">Наши специалисты уже занимаются этой проблемой. Попробуйте позже</string>
+    <string name="camera_permission_alert_message">Чтобы снимать фото, перейдите в настройки телефона и разрешите \nдоступ к камере</string>
+    <string name="camera_permission_alert_title">Разрешите доступ к камере</string>
+    <string name="location_permission_alert_message">Чтобы снимать фото, перейдите в настройки телефона и разрешите \nдоступ к камере</string>
+    <string name="location_permission_alert_title">Разрешите доступ к камере</string>
+    <string name="camera_permission_not_granted">Нет разрешения на доступ к камере</string>
+    <string name="storage_permission_alert_message">Чтобы использовать фото и видео из памяти вашего телефона, перейдите в настройки телефона и разрешите доступ к хранилищу</string>
+    <string name="storage_photo_and_video_permission_alert_message">Чтобы использовать фото и видео из памяти вашего телефона, перейдите в настройки телефона и разрешите доступ к фото и видео</string>
+    <string name="storage_permission_alert_title">Разрешите доступ к хранилищу</string>
+    <string name="storage_photo_and_video_permission_alert_title">Разрешите доступ к фото и видео</string>
+    <string name="storage_permission_not_granted">Нет разрешения на доступ к хранилищу файлов</string>
+
+</resources>
